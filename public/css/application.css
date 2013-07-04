@@ -1,9 +1,91 @@
-.container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+body {
+  background-image: url(http://stmedia.startribune.com/images/spt0914packers.jpg);
+  background-repeat: no-repeat;
 }
+
+.container {
+  width: 80%;
+  height: 25px;
+  margin: 0 auto;
+  background-color: #FFBF00;
+  margin-top: 2px;
+}
+
+nav img {
+  height: 20px;
+  width: auto;
+  float: left;
+}
+
+h3 {
+
+  float: left;
+  margin: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #294239;
+  float: right;
+  margin: 5px;
+}
+
+.content {
+  padding: 10px;
+  width: 77%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 5px solid #294239;
+  background-color:#FFBF00; color:#fff; opacity:.85;
+  color: #294239;
+}
+
+.login a {
+  color: #294239;
+  font-size: large;
+  font-weight: bolder;
+}
+
+
+
 th {
   text-align: left;
+}
+
+.signup {
+  padding: 10px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 5px solid #294239;
+  background-color:#FFBF00; color:#fff; opacity:.95;
+  color: #294239;
+  text-align: center; 
+}
+
+.signup input {
+  text-align: center;
+  width: 350px;
+  margin: 5px;
+}
+
+.user_info {
+  height: 80px;
+  padding: 10px;
+  width: 77%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 5px solid #294239;
+  background-color:#FFBF00; color:#fff; opacity:.85;
+}
+
+.user_info h1{
+  float: left;
+}
+
+.user_info img {
+  height: 70px;
+  width: auto;
+  float: left;
+  margin: 10px;
 }
